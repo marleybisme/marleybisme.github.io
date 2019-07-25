@@ -1,0 +1,86 @@
+html {
+  background:
+url(https://backgroundcheckall.com/wp-content/uploads/2018/10/sleeping-background-8.jpg)
+no-repeat center center fixed;
+ background-size: cover;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+head{
+color:#FFFFFF;
+}
+
+h1{
+color:#FFFFFF;
+font-size:100px;
+}
+
+body{
+  color:#FFFFFF;
+}
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.a {
+  text-indent: 50px;
+}
